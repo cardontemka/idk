@@ -1,0 +1,76 @@
+.contain {
+    width: 100vw;
+    height: 100%;
+}
+
+.dark {
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+.light {
+    background-color: rgb(250, 250, 250);
+    color: black;
+}
+
+.firstContain {
+    display: flex;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60%;
+    padding: 0 5vw 0 10vw;
+}
+
+.bgwoman {
+    background-image: url('../../assets/images/HomePage.svg');
+}
+
+.homeContain {
+    margin: 22vh 0 0 0;
+    color: white;
+}
+
+.title {
+    font-size: 5vw;
+    margin: 0;
+}
+
+.text {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6vh;
+}
+
+.email {
+    background-color: white;
+    border-radius: 3px;
+    border: rgb(69, 69, 69) 1px solid;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    padding: 3%;
+    cursor: text;
+}
+
+.inputButton {
+    display: flex;
+    background-color: rgb(0, 180, 255);
+    border-radius: 5px;
+    font-size: 90%;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2%;
+    cursor: pointer;
+}
+
+.inputButton:hover {
+    background-color: rgb(0, 160, 255);
+}

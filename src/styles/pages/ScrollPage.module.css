@@ -1,0 +1,148 @@
+.contain {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    max-height: 100vh;
+    justify-content: space-between;
+    position: relative;
+}
+
+.textContain {
+    width: 25vw;
+    margin: 10vw;
+}
+
+.dark {
+    color: white;
+}
+
+.light {
+    color: black;
+}
+
+.textMargin {
+    margin: 0 20vw 0 0;
+}
+
+.title {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 1vw;
+}
+
+.imageContain {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.coverImage {
+    height: 40vw;
+    width: auto;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.lrnmore {
+    cursor: pointer;
+    color: #0d6efd;
+    padding: 0;
+    font-size: 1vw;
+    text-decoration: underline;
+}
+
+.lrnmore:hover {
+    color: #0a58ca;
+}
+
+.calicon {
+    width: 3vw;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    right: 10vw;
+    top: 5%;
+}
+.notif {
+    width: 4vw;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    right: 29vw;
+    bottom: 30%;
+}
+
+.event1 {
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    right: 23vw;
+}
+.event2 {
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 23vw;
+}
+.event3 {
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 23vw;
+}
+
+.bgwoman1 {
+    width: 35vw;
+    height: 35vw;
+    background-image: url('../../assets/images/bgwoman1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 5vw;
+}
+.bgwoman2 {
+    width: 40vw;
+    height: 40vw;
+    background-image: url('../../assets/images/bgwoman2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.calendar {
+    width: 18vw;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    top: 8%;
+    right: 28vw;
+}
+
+.wpsau {
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0 0 0;
+}
+
+.reviewContain {
+    display: flex;
+    width: 100vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+}

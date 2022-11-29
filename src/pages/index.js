@@ -1,0 +1,7 @@
+export * from './HomePage'
+export * from './Products'
+export * from './Services'
+export * from './Contact'
+export * from './Login'
+export * from './Getaccess'
+export * from './Notfound'

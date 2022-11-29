@@ -1,0 +1,29 @@
+.contain {
+    width: 100vw;
+    background-color: rgb(31, 37, 48);
+    padding: 5vh 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.word {
+    font-size: 1.5vh;
+    color: white;
+    margin: 0.5% 0;
+}
+
+.columnContain {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vw;
+}
+
+.logo {
+    width: 8vw;
+    min-width: 25px;
+    height: auto;
+}
+
+.title {
+    margin: 0 0 3vh;
+}

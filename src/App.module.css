@@ -1,0 +1,8 @@
+* {
+    cursor: default;
+    transition: 300ms;
+}
+
+.App {
+    overflow-x: hidden;
+}

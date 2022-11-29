@@ -1,0 +1,7 @@
+.contain {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(5vh + 5vw);
+}
